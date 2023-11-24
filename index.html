@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Pomodoro</h1>
+  <p id="local-time"></p>
+  <p id="timer"></p>
+  <br>
+  <label for="workDuration">Select Duration:</label>
+  <select id="workDuration" onchange="updateWorkDuration()">
+    <option value="30">30 minutes</option>
+    <option value="15">15 minutes</option>
+    <option value="5">5 minutes</option>
+  </select>
+  <button onclick="startPomodoro()">Start</button>
+  <button onclick="pausePomodoro()">Pause</button>
+  <!-- <button onclick="stopPomodoro()">Stop</button> -->
+  <button onclick="resetPomodoro()">Reset</button>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: #f0f8ff;
+}
+
+h1 {
+  color: #4682b4;
+  border-radius: 10px;
+}
+
+#timer {
+    font-size: 20em;
+    padding: 10px;
+    margin: 20px 0;
+    color: #2e8b57;
+    border: 6px solid #2e8b57;
+    border-radius: 15px;
+    display: inline-block;
+  }
+
+label {
+  color: #4682b4;
+  margin-right: 10px;
+}
+
+select, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1em;
+  background-color: #4682b4; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+select:hover, button:hover {
+  background-color: #41e14e; 
+}
